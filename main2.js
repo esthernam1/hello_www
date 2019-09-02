@@ -57,45 +57,10 @@ function draw() {
   line(0, 0, cos(m) * minutesRadius, sin(m) * minutesRadius);
   strokeWeight(4);  // hour hand should be thicker
   line(0, 0, cos(h) * hoursRadius, sin(h) * hoursRadius);
-  
-//   // Write the numbers
-//   fill(41, 83, 166);
-//   textSize(16);
-//   strokeWeight(0.1);
-//   x = cos(PI + HALF_PI) * secondsRadius - 10;
-//   y = sin(PI + HALF_PI) * secondsRadius - 10;
-//   text("12", x, y);
-  
-//   x = cos(TWO_PI) * secondsRadius + 10;
-//   y = sin(TWO_PI) * secondsRadius + 5;
-//   text("3", x, y);
 
-//   x = cos(HALF_PI) * secondsRadius - 7;
-//   y = sin(HALF_PI) * secondsRadius + 20;
-//   text("6", x, y);
-
-//   x = cos(PI) * secondsRadius - 25;
-//   y = sin(PI) * secondsRadius + 5;
-//   text("9", x, y);
 }
 
-let inconsolata;
-function preload() {
-  inconsolata = loadFont('assets/inconsolata.otf');
-}
-function setup() {
-  createCanvas(100, 100, WEBGL);
-  textFont(inconsolata);
-  textSize(width / 3);
-  textAlign(CENTER, CENTER);
-}
-function draw() {
-  background(0);
-  let time = millis();
-  rotateX(time / 1000);
-  rotateZ(time / 1234);
-  text('p5.js', 0, 0);
-}
+
 
 
 
