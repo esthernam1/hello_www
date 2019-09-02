@@ -61,15 +61,6 @@ function convertNumberToName(num) {
 startTime();
 
 
-// function myFunction() {
-//     document.getElementsByClassName(".hex1", ".hex2", ".hex3", ".hex4").style.backgroundColor = "lightblue";
-//   }
-
-// $(function () {
-//     $("#hex").click(function () {
-//         $(this).css('background-color', '#000000');
-//     });
-// });
 
 
 
