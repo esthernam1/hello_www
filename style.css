@@ -102,6 +102,23 @@ body{
     position: absolute;
 } */
 
+.receipt6{
+    border-width: 5px;
+    border-color:black;
+    position: absolute;
+    border-style: solid; 
+    background:white; 
+    width: 5.99in;
+    height: 5.99in;
+    text-align: center;
+    font-size: 35px;
+    margin-top:7%;
+    margin-left:30%;
+    margin-bottom: 7%;
+    cursor: url('img/blackCircle.png'), auto;
+    opacity:.8;
+}
+
 .circle{
   height: 80px;
   width: 80px;
@@ -548,16 +565,16 @@ a:link, a:visited{
     font-size: 90px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     opacity:.5;
-    left:1050px;
-    bottom:380px;
+    left:1090px;
+    bottom:420px;
     position: absolute;
 }
 .previousPage{
     font-size: 90px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     opacity:.5;
-    bottom:380px;
-    right:1050px;
+    bottom:420px;
+    right:1150px;
     position: absolute;
 }
 
