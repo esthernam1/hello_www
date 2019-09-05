@@ -8,7 +8,7 @@ body{
 .rules{
     position: absolute;
     left:90%;
-    top:85%;
+    top:83%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:50px;
     opacity:.5;
@@ -59,7 +59,7 @@ body{
     border-style: solid;
     background:white;
     width: 800px;
-    height: 1040px;
+    height: 1080px;
     text-align: center;
     padding-top:4%;
     margin-left:20%;
@@ -150,80 +150,6 @@ body{
     opacity:.8;
 }
 
-.circle{
-  height: 80px;
-  width: 80px;
-  border: red;
-  border-style: solid;
-  border-radius: 50%;
-  /* margin-left:100px; */
-  margin:70px;
-  margin-left: 120px;
-}
-
-.circle:hover{
-    background-color: red;
-    display: block;
-    cursor: url('img/blackCircle.png'), auto;
-}
-
-.square{
-    height: 80px;
-    width: 80px;
-    border:blue;
-    border-style: solid;
-    margin:70px;
-    margin-left: 120px;
-}
-
-.square:hover{
-    background-color: blue;
-    display: block;
-    cursor: url('img/blackCircle.png'), auto;
-}
-
-.halfCirc{
-    width: 100px;
-    height: 50px;
-    border-radius: 100px 100px 0 0;
-    border: 3px solid black;
-    margin:62px;
-    margin-left: 120px;
-}
-
-.halfCirc:hover{
-    background:black;
-    cursor: url('img/blackCircle.png'), auto;
-}
-
-.diamond{ 
-    height: 80px;
-    width: 80px;
-    transform: rotate(45deg);
-    border: #F2E148;
-    border-style: solid;
-    margin:70px;
-    margin-left: 120px;
-}
-.diamond:hover{ 
-    background:#F2E148;
-    cursor: url('img/blackCircle.png'), auto;
-}
-
-.halfCircRotate{
-    width: 100px;
-    height: 50px;
-    border-radius: 100px 100px 0 0;
-    border: 3px solid green;
-    transform: rotate(90deg);
-    margin: 75px;
-    margin-left: 120px;
-}
-
-.halfCircRotate:hover{ 
-    background:green;
-    cursor: url('img/blackCircle.png'), auto;
-}
 
 .constraints{
     font-size: 30px;
@@ -235,9 +161,253 @@ body{
     width:92%;
 }
 
-#shapes{
-    padding-bottom:100px;
+.dot{
+    position:absolute;
+    top:30%;
+    left:90%;
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
 }
+.dot:hover{
+background: black;
+}
+
+.dot1{
+    position:absolute;
+    top:39%;
+    left:90%;
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot1:hover{
+background: black;
+}
+
+.dot2{
+    position:absolute;
+    top:50%;
+    left:90%;
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot2:hover{
+background: black;
+}
+
+.dot3{
+    position:absolute;
+    top:60%;
+    left:90%;
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot3:hover{
+background: black;
+}
+
+.dot4{
+    position:absolute;
+    top:70%;
+    left:90%;
+    height: 25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot4:hover{
+background: black;
+}
+
+
+.tooltip {
+    position: absolute;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    top:30%;
+    left:90%;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border:2px black solid;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-size: 17px;
+    text-align: left;
+    padding-left:15px;
+    padding-right:13px;
+    line-height: 2.5;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+
+
+
+
+
+  /*    -=------------------ */
+  .tooltip1 {
+    position: absolute;
+    top:50%;
+    left:90%;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+
+  }
+  
+  .tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border:2px black solid;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-size: 17px;
+    text-align: left;
+    padding-left:15px;
+    padding-right:13px;
+    line-height: 2.0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+  }
+/* <_-------------- */
+
+.tooltip2 {
+    position: absolute;
+    top:60%;
+    left:90%;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+
+  }
+  
+  .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border:2px black solid;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-size: 17px;
+    text-align: left;
+    padding-left:15px;
+    padding-right:13px;
+    line-height: 2.0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+  }
+
+
+  /* <_---------------------------------------- */
+
+.tooltip3 {
+    position: absolute;
+    top:70%;
+    left:90%;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+
+  }
+  
+  .tooltip3 .tooltiptext3 {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border:2px black solid;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-size: 17px;
+    text-align: left;
+    padding-left:15px;
+    padding-right:13px;
+    line-height: 2.0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip3:hover .tooltiptext3 {
+    visibility: visible;
+  }
+
+    /* <_---------------------------------------- */
+
+.tooltip4 {
+    position: absolute;
+    top:39%;
+    left:90%;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+
+  }
+  
+  .tooltip4 .tooltiptext4 {
+    visibility: hidden;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border:2px black solid;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-size: 17px;
+    text-align: left;
+    padding-left:15px;
+    padding-right:13px;
+    line-height: 2.0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip4:hover .tooltiptext4 {
+    visibility: visible;
+  }
+
 
 .days{
     font-size: 35px;
@@ -259,6 +429,7 @@ body{
     color: black; 
     cursor: url('img/index.png'), auto;
     text-align: left;
+    margin-right:500px;
 
 }
 .dayOne:hover{
@@ -273,6 +444,7 @@ body{
     text-decoration: none;
     color: black; 
     text-align: left;
+    margin-right:500px;
 }
 .dayTwo:hover{
     text-decoration: none;
@@ -286,6 +458,7 @@ body{
     color: black; 
     cursor: url('img/index.png'), auto;
     text-align: left;
+    margin-right:450px;
 }
 .dayThree:hover{
     text-decoration: none;
@@ -299,6 +472,7 @@ body{
     color: black; 
     cursor: url('img/index.png'), auto;
     text-align: left;
+    margin-right:500px;
 }
 .dayFour:hover{
     text-decoration: none;
@@ -312,6 +486,7 @@ body{
     color: black; 
     cursor: url('img/index.png'), auto;
     text-align: left;
+    margin-right:500px;
 }
 .dayFive:hover{
     text-decoration: none;
@@ -677,36 +852,122 @@ a:link, a:visited{
 
 .three{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:50px;
-    top:55%;
-    left:80%;
+    font-size:30px;
+    width:250px;
+    height:400px;
+    top:33%;
+    left:33%;
     position: absolute;
-    color: #2953a6;
+    background: #FEE14D;
+    color:#FEE14D;
+}
+.three:hover{
+    color: black;
 }
 .six{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:50px;
-    top:85%;
-    left:48%;
+    font-size:30px;
+    width:250px;
+    height:400px;
+    top:65%;
+    left:33%;
     position: absolute;
-    color: #2953a6;
+    background: #4872FB;
+    color:#4872FB;
 }
+
+.six:hover{
+color:white;
+}
+
 .nine{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:50px;
-    top:55%;
+    font-size:30px;
+    width:250px;
+    height:400px;
+    top:65%;
     left:15%;
     position: absolute;
-    color: #2953a6;
+    background: #013CFE;
+    color:#013CFE;
 }
+.nine:hover{
+color:white;
+}
+
 .twelve{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:50px;
-    top:25%;
-    left:47%;
+    font-size:30px;
+    width:250px;
+    height:400px;
+    top:33%;
+    left:15%;
     position: absolute;
-    color: #2953a6;
+    background: #FED401;
+    color: #FED401;
 }
+.twelve:hover{
+    color:black;
+    }
+.fifteen{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    width:250px;
+    height:400px;
+    top:65%;
+    left:51%;
+    position: absolute;
+    background: #99B1FE;
+    color: #99B1FE;
+}
+.fifteen:hover{
+    color:white;
+    }
+.eighteen{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    width:250px;
+    height:400px;
+    top:33%;
+    left:51%;
+    position: absolute;
+    background: #FEF288;
+    color: #FEF288;
+}
+.eighteen:hover{
+    color:black;
+    }
+
+.twentyone{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    width:250px;
+    height:400px;
+    top:65%;
+    left:69%;
+    position: absolute;
+    background: #E8EEFE;
+    color: #E8EEFE;
+}
+
+.twentyone:hover{
+    color:black;
+    }
+
+.twentyfour{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    width:250px;
+    height:400px;
+    top:33%;
+    left:69%;
+    position: absolute;
+    background: #FEFDE8;
+    color: #FEFDE8;
+}
+.twentyfour:hover{
+    color:black;
+    }
 
 .constraint3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -716,6 +977,8 @@ a:link, a:visited{
     left:2%;
     position: absolute;
 }
+
+
 
 .constraint3:hover{
     cursor: url('constraint3.svg'), auto;
